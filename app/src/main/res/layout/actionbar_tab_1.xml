@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/actionbar_tab_1"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:textSize="24sp"
+        android:textColor="#000000"
+        android:fontFamily="Open Sans"
+        android:textStyle="bold"
+        android:text="Instructions" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:textSize="22sp"
+        android:textColor="#000000"
+        android:text="
+
+\nStep-1:
+\nDownload the app and enter your personal information. Read the instructions. The   DiaStrip test should not be taken within one hour after a meal.
+
+\n\nDisclaimer:
+\nDiaStrips evaluate the glucose levels in your saliva based on an enzymatic color change. Elevated levels might indicate diabetes. DiaStrips is not a medical test. If you experience any of the following diabetes signs and symptoms, see your doctor: excessive thirst and increased urination, fatigue, weight loss, blurred vision.
+\nLink to Mayo Clinic webpage: http://www.mayoclinic.org/diseases-conditions/diabetes/in-depth/diabetes-symptoms/art-20044248
+\n\nStep-2:
+\nPlace the DiaStrip in your mouth for 10 seconds.
+
+\n\nStep-3:
+\nWait 45 seconds for the strip to change color.
+
+\n\nStep-4:
+\nScan the strip using the DiaStrip App.
+
+\n\nStep-5:
+\nResults: Based on the color of the DiaStrip, your saliva glucose level is assessed. Elevated levels might indicate diabetes and you should contact your doctor to get tested for diabetes.
+\n\nRed: Your saliva glucose levels appear to be elevated. Please contact your GP at 415-XXX-XXXX
+\n\nYellow: Inconclusive or slighly elevated levels.
+\n\nGreen: Your saliva glucose levels appear to be normal. However, if you're experiencing any of the following diabetes signs and symptoms, see your doctor: excessive thirst and increased urination, fatigue, weight loss, blurred vision.\n"/>
+
+</LinearLayout>
+
+
+</ScrollView>
